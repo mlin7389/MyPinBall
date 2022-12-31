@@ -1,0 +1,123 @@
+
+/* Class = "IBUILabel"; text = "Level:1"; ObjectID = "6wu-QN-lv6"; */
+"6wu-QN-lv6.text" = "Level:1";
+
+/* Class = "IBUILabel"; text = "Calculate when play over 20 times"; ObjectID = "8GF-Zq-kPr"; */
+"8GF-Zq-kPr.text" = "Calculate when play over 20 times";
+
+/* Class = "IBUIButton"; normalTitle = "Close"; ObjectID = "9E1-mg-FDN"; */
+"9E1-mg-FDN.normalTitle" = "關閉";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "AXE-5b-hWj"; */
+"AXE-5b-hWj.title" = "儲存";
+
+/* Class = "IBUILabel"; text = "Skill Percent"; ObjectID = "C3h-pQ-oea"; */
+"C3h-pQ-oea.text" = "命率中";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "CkL-VH-HGo"; */
+"CkL-VH-HGo.text" = "12.34%";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "Ctv-oA-gKL"; */
+"Ctv-oA-gKL.text" = "12.34%";
+
+/* Class = "IBUILabel"; text = "TotalPoint:"; ObjectID = "DEB-jk-Mnt"; */
+"DEB-jk-Mnt.text" = "總得分:";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "DrX-6A-l41"; */
+"DrX-6A-l41.text" = "12.34%";
+
+/* Class = "IBUIButton"; normalTitle = "Close"; ObjectID = "GWX-4l-AHH"; */
+"GWX-4l-AHH.normalTitle" = "關閉";
+
+/* Class = "IBUILabel"; text = "3"; ObjectID = "N0C-tL-s4S"; */
+"N0C-tL-s4S.text" = "3";
+
+/* Class = "IBUILabel"; text = "34.89%"; ObjectID = "Q6o-CZ-tNu"; */
+"Q6o-CZ-tNu.text" = "34.89%";
+
+/* Class = "IBUILabel"; text = "2"; ObjectID = "Q8O-cb-1sI"; */
+"Q8O-cb-1sI.text" = "2";
+
+/* Class = "IBUILabel"; text = "123,456,789"; ObjectID = "QpM-qY-b1Y"; */
+"QpM-qY-b1Y.text" = "123,456,789";
+
+/* Class = "IBUILabel"; text = "Calculate when play over 15 times"; ObjectID = "RvG-E5-md5"; */
+"RvG-E5-md5.text" = "Calculate when play over 15 times";
+
+/* Class = "IBUILabel"; text = "Calculate when play over 25 times"; ObjectID = "S7Y-fn-dvh"; */
+"S7Y-fn-dvh.text" = "Calculate when play over 25 times";
+
+/* Class = "IBUILabel"; text = "Skill:"; ObjectID = "TKj-Vk-YnM"; */
+"TKj-Vk-YnM.text" = "命中率:";
+
+/* Class = "IBUILabel"; text = "8"; ObjectID = "Vch-6G-Fy8"; */
+"Vch-6G-Fy8.text" = "8";
+
+/* Class = "IBUIButton"; normalTitle = "GameCenter"; ObjectID = "X3I-er-TKO"; */
+"X3I-er-TKO.normalTitle" = "GameCenter";
+
+/* Class = "IBUILabel"; text = "5"; ObjectID = "ZKa-hd-NCL"; */
+"ZKa-hd-NCL.text" = "5";
+
+/* Class = "IBUILabel"; text = "TO SCORE"; ObjectID = "aSY-5E-ORd"; */
+"aSY-5E-ORd.text" = "得分方式";
+
+/* Class = "IBUILabel"; text = "Calculate when play over 30 times"; ObjectID = "aa7-fF-D0X"; */
+"aa7-fF-D0X.text" = "Calculate when play over 30 times";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "c41-1h-sEF"; */
+"c41-1h-sEF.text" = "12.34%";
+
+/* Class = "IBUILabel"; text = "You can play any level you want, the scores will be merged to calculate, but each level separates their scoring percent.The GameCenter has multiple achievements let you could challenge."; ObjectID = "dGU-4h-1NN"; */
+"dGU-4h-1NN.text" = "你可以隨意選擇你要玩的等級,分數會合併計算,但每一個等級的命中率會依球數足夠後個別計算!另外GameCenter有多種成就達成，可試著挑戰看看喔!";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "dnJ-dr-QCr"; */
+"dnJ-dr-QCr.text" = "12.34%";
+
+/* Class = "IBUIButton"; normalTitle = "Ranking"; ObjectID = "e8F-WM-tc0"; */
+"e8F-WM-tc0.normalTitle" = "星星評論";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "hRC-bD-6bM"; */
+"hRC-bD-6bM.text" = "12.34%";
+
+/* Class = "IBUIBarButtonItem"; title = "Close"; ObjectID = "hVG-Y7-eFi"; */
+"hVG-Y7-eFi.title" = "關閉";
+
+/* Class = "IBUILabel"; text = "10"; ObjectID = "hyS-2f-zkU"; */
+"hyS-2f-zkU.text" = "10";
+
+/* Class = "IBUILabel"; text = "Calculate when play over 15 times"; ObjectID = "j2R-B3-OIb"; */
+"j2R-B3-OIb.text" = "Calculate when play over 15 times";
+
+/* Class = "IBUILabel"; text = "1"; ObjectID = "k16-Pm-XOu"; */
+"k16-Pm-XOu.text" = "1";
+
+/* Class = "IBUILabel"; text = "Level"; ObjectID = "mjq-QH-oEF"; */
+"mjq-QH-oEF.text" = "等級";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "o0d-Sz-0dw"; */
+"o0d-Sz-0dw.text" = "12.34%";
+
+/* Class = "IBUINavigationItem"; title = "Setting"; ObjectID = "pAK-N9-2F1"; */
+"pAK-N9-2F1.title" = "設定";
+
+/* Class = "IBUILabel"; text = "Total Score"; ObjectID = "q3s-8Q-JYd"; */
+"q3s-8Q-JYd.text" = "總得分";
+
+/* Class = "IBUILabel"; text = "Archievements"; ObjectID = "rg6-xY-GoD"; */
+"rg6-xY-GoD.text" = "成就達成";
+
+/* Class = "IBUILabel"; text = "SCORE"; ObjectID = "tnN-Jm-hax"; */
+"tnN-Jm-hax.text" = "得分";
+
+/* Class = "IBUILabel"; text = "12.34%"; ObjectID = "vSv-p4-TGS"; */
+"vSv-p4-TGS.text" = "12.34%";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "vYP-Yy-14f"; */
+"vYP-Yy-14f.text" = "12";
+
+/* Class = "IBUIButton"; normalTitle = "FeedBack"; ObjectID = "vfm-Ii-vdk"; */
+"vfm-Ii-vdk.normalTitle" = "意見回饋";
+
+/* Class = "IBUILabel"; text = "Calculate when play over 30 times"; ObjectID = "yuA-hn-X6B"; */
+"yuA-hn-X6B.text" = "Calculate when play over 30 times";

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4D5F7380-1B99-42AC-B278-E0074B1482A1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyPinBall</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>072B092013E336B4F472FA3162DB219E9917C004</key>
+		<string>https://myspot.visualstudio.com/DefaultCollection/_git/MyPinBall</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyPinBall.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>072B092013E336B4F472FA3162DB219E9917C004</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://myspot.visualstudio.com/DefaultCollection/_git/MyPinBall</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>072B092013E336B4F472FA3162DB219E9917C004</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>072B092013E336B4F472FA3162DB219E9917C004</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyPinBall</string>
+		</dict>
+	</array>
+</dict>
+</plist>

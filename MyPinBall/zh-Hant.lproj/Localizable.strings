@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  PinBall
+
+  Created by MartyLin on 1/20/15.
+  Copyright (c) 2015 Rubber City Wizards. All rights reserved.
+*/
+"level"="等級";
+"skill"="命中率";
+"point"="得分";
+"each"="分";
+"Information"="訊息";
+"message"="Game Center 目前無法使用\n請稍後再試!";
+"subtitle"="當玩的次數超過 %d 次後會開始計算";
+"Review1"="評價";
+"Review2"="你如你覺得好玩\n可否給作者一點鼓勵呢?";
+"Review3"="好呀";
+"Review4"="不再提醒";
+"Review5"="我再想想";

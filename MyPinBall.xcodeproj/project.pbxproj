@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401A3EF61A6FFEA2009F0E1B /* RCWSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401A3EF51A6FFEA2009F0E1B /* RCWSettingViewController.m */; };
+		40316FDB1A6F7F65007DE56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40316FDD1A6F7F65007DE56C /* Main.storyboard */; };
+		40316FE01A6F7FD9007DE56C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40316FE21A6F7FD9007DE56C /* Localizable.strings */; };
+		403E54601A6E7E0100D335A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403E545F1A6E7E0100D335A6 /* Foundation.framework */; };
+		403E54621A6E7E0100D335A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403E54611A6E7E0100D335A6 /* CoreGraphics.framework */; };
+		403E54641A6E7E0100D335A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403E54631A6E7E0100D335A6 /* UIKit.framework */; };
+		403E54661A6E7E0100D335A6 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403E54651A6E7E0100D335A6 /* SpriteKit.framework */; };
+		403E546C1A6E7E0100D335A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 403E546A1A6E7E0100D335A6 /* InfoPlist.strings */; };
+		403E546E1A6E7E0100D335A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403E546D1A6E7E0100D335A6 /* main.m */; };
+		403E54721A6E7E0100D335A6 /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403E54711A6E7E0100D335A6 /* MPAppDelegate.m */; };
+		403E547F1A6E7E0100D335A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403E547E1A6E7E0100D335A6 /* Images.xcassets */; };
+		4053921D1A6E7E3D007E7D5E /* bgs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 405392101A6E7E3D007E7D5E /* bgs.jpg */; };
+		405392371A6E7E45007E7D5E /* WALL2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 4053922A1A6E7E45007E7D5E /* WALL2.aif */; };
+		405392381A6E7E45007E7D5E /* WALL1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 4053922B1A6E7E45007E7D5E /* WALL1.aif */; };
+		405392391A6E7E45007E7D5E /* plugger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4053922C1A6E7E45007E7D5E /* plugger.wav */; };
+		4053923A1A6E7E45007E7D5E /* LED1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4053922D1A6E7E45007E7D5E /* LED1.wav */; };
+		4053923B1A6E7E45007E7D5E /* JACKPOT.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4053922E1A6E7E45007E7D5E /* JACKPOT.wav */; };
+		4053923C1A6E7E45007E7D5E /* NOGO.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4053922F1A6E7E45007E7D5E /* NOGO.wav */; };
+		4053923D1A6E7E45007E7D5E /* PIN1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 405392301A6E7E45007E7D5E /* PIN1.wav */; };
+		4053923E1A6E7E45007E7D5E /* PIN2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 405392311A6E7E45007E7D5E /* PIN2.wav */; };
+		4053923F1A6E7E45007E7D5E /* PIN3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 405392321A6E7E45007E7D5E /* PIN3.wav */; };
+		405392401A6E7E45007E7D5E /* PIN4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 405392331A6E7E45007E7D5E /* PIN4.wav */; };
+		405392411A6E7E45007E7D5E /* PIN5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 405392341A6E7E45007E7D5E /* PIN5.wav */; };
+		405392421A6E7E45007E7D5E /* PIN6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 405392351A6E7E45007E7D5E /* PIN6.wav */; };
+		405392431A6E7E45007E7D5E /* LED2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 405392361A6E7E45007E7D5E /* LED2.wav */; };
+		405392561A6E7E5D007E7D5E /* RCWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392451A6E7E5D007E7D5E /* RCWMyScene.m */; };
+		405392571A6E7E5D007E7D5E /* RCWPinballNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392471A6E7E5D007E7D5E /* RCWPinballNode.m */; };
+		405392581A6E7E5D007E7D5E /* RCWPlungerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392491A6E7E5D007E7D5E /* RCWPlungerNode.m */; };
+		405392591A6E7E5D007E7D5E /* RCWTableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4053924B1A6E7E5D007E7D5E /* RCWTableNode.m */; };
+		4053925A1A6E7E5D007E7D5E /* RCWPinNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4053924D1A6E7E5D007E7D5E /* RCWPinNode.m */; };
+		4053925B1A6E7E5D007E7D5E /* RCWCatagory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4053924F1A6E7E5D007E7D5E /* RCWCatagory.m */; };
+		4053925C1A6E7E5D007E7D5E /* MainCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392511A6E7E5D007E7D5E /* MainCenter.m */; };
+		4053925D1A6E7E5D007E7D5E /* RCWLEDLightNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392531A6E7E5D007E7D5E /* RCWLEDLightNode.m */; };
+		4053925E1A6E7E5D007E7D5E /* RCWLEDShapeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392551A6E7E5D007E7D5E /* RCWLEDShapeNode.m */; };
+		405392681A6E7E8C007E7D5E /* RCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392621A6E7E8C007E7D5E /* RCWViewController.m */; };
+		4053926A1A6E7E8C007E7D5E /* RCWInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392661A6E7E8C007E7D5E /* RCWInfoViewController.m */; };
+		405392A41A6E8D4D007E7D5E /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 405392A31A6E8D4D007E7D5E /* mark.png */; };
+		405392A61A6E8FE4007E7D5E /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 405392A51A6E8FE4007E7D5E /* game.png */; };
+		405392A91A6EAF02007E7D5E /* MPRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405392A81A6EAF02007E7D5E /* MPRankViewController.m */; };
+		4066C8331A7127E0003D9487 /* PadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4066C8351A7127E0003D9487 /* PadStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401A3EF41A6FFEA2009F0E1B /* RCWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWSettingViewController.h; sourceTree = "<group>"; };
+		401A3EF51A6FFEA2009F0E1B /* RCWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWSettingViewController.m; sourceTree = "<group>"; };
+		401A3EF71A7013BD009F0E1B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		401A3EF81A7013BD009F0E1B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		401A3EF91A7013BD009F0E1B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		40316FDA1A6F7F58007DE56C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		40316FDC1A6F7F65007DE56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40316FDF1A6F7F68007DE56C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		40316FE11A6F7FD9007DE56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		40316FE31A6F7FDA007DE56C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		403E545C1A6E7E0100D335A6 /* MyPinBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPinBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403E545F1A6E7E0100D335A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		403E54611A6E7E0100D335A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		403E54631A6E7E0100D335A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		403E54651A6E7E0100D335A6 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		403E54691A6E7E0100D335A6 /* MyPinBall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPinBall-Info.plist"; sourceTree = "<group>"; };
+		403E546B1A6E7E0100D335A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		403E546D1A6E7E0100D335A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		403E546F1A6E7E0100D335A6 /* MyPinBall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPinBall-Prefix.pch"; sourceTree = "<group>"; };
+		403E54701A6E7E0100D335A6 /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
+		403E54711A6E7E0100D335A6 /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
+		403E547E1A6E7E0100D335A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		403E54851A6E7E0100D335A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		405392101A6E7E3D007E7D5E /* bgs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgs.jpg; sourceTree = "<group>"; };
+		4053922A1A6E7E45007E7D5E /* WALL2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = WALL2.aif; sourceTree = "<group>"; };
+		4053922B1A6E7E45007E7D5E /* WALL1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = WALL1.aif; sourceTree = "<group>"; };
+		4053922C1A6E7E45007E7D5E /* plugger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plugger.wav; sourceTree = "<group>"; };
+		4053922D1A6E7E45007E7D5E /* LED1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LED1.wav; sourceTree = "<group>"; };
+		4053922E1A6E7E45007E7D5E /* JACKPOT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = JACKPOT.wav; sourceTree = "<group>"; };
+		4053922F1A6E7E45007E7D5E /* NOGO.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NOGO.wav; sourceTree = "<group>"; };
+		405392301A6E7E45007E7D5E /* PIN1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PIN1.wav; sourceTree = "<group>"; };
+		405392311A6E7E45007E7D5E /* PIN2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PIN2.wav; sourceTree = "<group>"; };
+		405392321A6E7E45007E7D5E /* PIN3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PIN3.wav; sourceTree = "<group>"; };
+		405392331A6E7E45007E7D5E /* PIN4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PIN4.wav; sourceTree = "<group>"; };
+		405392341A6E7E45007E7D5E /* PIN5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PIN5.wav; sourceTree = "<group>"; };
+		405392351A6E7E45007E7D5E /* PIN6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PIN6.wav; sourceTree = "<group>"; };
+		405392361A6E7E45007E7D5E /* LED2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LED2.wav; sourceTree = "<group>"; };
+		405392441A6E7E5D007E7D5E /* RCWMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWMyScene.h; sourceTree = "<group>"; };
+		405392451A6E7E5D007E7D5E /* RCWMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWMyScene.m; sourceTree = "<group>"; };
+		405392461A6E7E5D007E7D5E /* RCWPinballNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWPinballNode.h; sourceTree = "<group>"; };
+		405392471A6E7E5D007E7D5E /* RCWPinballNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWPinballNode.m; sourceTree = "<group>"; };
+		405392481A6E7E5D007E7D5E /* RCWPlungerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWPlungerNode.h; sourceTree = "<group>"; };
+		405392491A6E7E5D007E7D5E /* RCWPlungerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWPlungerNode.m; sourceTree = "<group>"; };
+		4053924A1A6E7E5D007E7D5E /* RCWTableNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWTableNode.h; sourceTree = "<group>"; };
+		4053924B1A6E7E5D007E7D5E /* RCWTableNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWTableNode.m; sourceTree = "<group>"; };
+		4053924C1A6E7E5D007E7D5E /* RCWPinNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWPinNode.h; sourceTree = "<group>"; };
+		4053924D1A6E7E5D007E7D5E /* RCWPinNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWPinNode.m; sourceTree = "<group>"; };
+		4053924E1A6E7E5D007E7D5E /* RCWCatagory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWCatagory.h; sourceTree = "<group>"; };
+		4053924F1A6E7E5D007E7D5E /* RCWCatagory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWCatagory.m; sourceTree = "<group>"; };
+		405392501A6E7E5D007E7D5E /* MainCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCenter.h; sourceTree = "<group>"; };
+		405392511A6E7E5D007E7D5E /* MainCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCenter.m; sourceTree = "<group>"; };
+		405392521A6E7E5D007E7D5E /* RCWLEDLightNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWLEDLightNode.h; sourceTree = "<group>"; };
+		405392531A6E7E5D007E7D5E /* RCWLEDLightNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWLEDLightNode.m; sourceTree = "<group>"; };
+		405392541A6E7E5D007E7D5E /* RCWLEDShapeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWLEDShapeNode.h; sourceTree = "<group>"; };
+		405392551A6E7E5D007E7D5E /* RCWLEDShapeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWLEDShapeNode.m; sourceTree = "<group>"; };
+		405392611A6E7E8C007E7D5E /* RCWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWViewController.h; sourceTree = "<group>"; };
+		405392621A6E7E8C007E7D5E /* RCWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWViewController.m; sourceTree = "<group>"; };
+		405392651A6E7E8C007E7D5E /* RCWInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWInfoViewController.h; sourceTree = "<group>"; };
+		405392661A6E7E8C007E7D5E /* RCWInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWInfoViewController.m; sourceTree = "<group>"; };
+		405392A31A6E8D4D007E7D5E /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
+		405392A51A6E8FE4007E7D5E /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
+		405392A71A6EAF02007E7D5E /* MPRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRankViewController.h; sourceTree = "<group>"; };
+		405392A81A6EAF02007E7D5E /* MPRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRankViewController.m; sourceTree = "<group>"; };
+		4066C8341A7127E0003D9487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PadStoryboard.storyboard; sourceTree = "<group>"; };
+		4066C8371A7127E3003D9487 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/PadStoryboard.strings"; sourceTree = "<group>"; };
+		40F1F1F41A712BFB00935217 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PadStoryboard.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403E54591A6E7E0000D335A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403E54621A6E7E0100D335A6 /* CoreGraphics.framework in Frameworks */,
+				403E54641A6E7E0100D335A6 /* UIKit.framework in Frameworks */,
+				403E54661A6E7E0100D335A6 /* SpriteKit.framework in Frameworks */,
+				403E54601A6E7E0100D335A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403E54531A6E7E0000D335A6 = {
+			isa = PBXGroup;
+			children = (
+				403E54671A6E7E0100D335A6 /* MyPinBall */,
+				403E545E1A6E7E0100D335A6 /* Frameworks */,
+				403E545D1A6E7E0100D335A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403E545D1A6E7E0100D335A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403E545C1A6E7E0100D335A6 /* MyPinBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403E545E1A6E7E0100D335A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				403E545F1A6E7E0100D335A6 /* Foundation.framework */,
+				403E54611A6E7E0100D335A6 /* CoreGraphics.framework */,
+				403E54631A6E7E0100D335A6 /* UIKit.framework */,
+				403E54651A6E7E0100D335A6 /* SpriteKit.framework */,
+				403E54851A6E7E0100D335A6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		403E54671A6E7E0100D335A6 /* MyPinBall */ = {
+			isa = PBXGroup;
+			children = (
+				4053920F1A6E7E2E007E7D5E /* Sound */,
+				4053920E1A6E7E28007E7D5E /* Images */,
+				403E54701A6E7E0100D335A6 /* MPAppDelegate.h */,
+				403E54711A6E7E0100D335A6 /* MPAppDelegate.m */,
+				4066C8351A7127E0003D9487 /* PadStoryboard.storyboard */,
+				40316FDD1A6F7F65007DE56C /* Main.storyboard */,
+				405392611A6E7E8C007E7D5E /* RCWViewController.h */,
+				405392621A6E7E8C007E7D5E /* RCWViewController.m */,
+				405392A71A6EAF02007E7D5E /* MPRankViewController.h */,
+				405392A81A6EAF02007E7D5E /* MPRankViewController.m */,
+				405392651A6E7E8C007E7D5E /* RCWInfoViewController.h */,
+				405392661A6E7E8C007E7D5E /* RCWInfoViewController.m */,
+				405392441A6E7E5D007E7D5E /* RCWMyScene.h */,
+				405392451A6E7E5D007E7D5E /* RCWMyScene.m */,
+				405392461A6E7E5D007E7D5E /* RCWPinballNode.h */,
+				405392471A6E7E5D007E7D5E /* RCWPinballNode.m */,
+				405392481A6E7E5D007E7D5E /* RCWPlungerNode.h */,
+				405392491A6E7E5D007E7D5E /* RCWPlungerNode.m */,
+				4053924A1A6E7E5D007E7D5E /* RCWTableNode.h */,
+				4053924B1A6E7E5D007E7D5E /* RCWTableNode.m */,
+				4053924C1A6E7E5D007E7D5E /* RCWPinNode.h */,
+				4053924D1A6E7E5D007E7D5E /* RCWPinNode.m */,
+				4053924E1A6E7E5D007E7D5E /* RCWCatagory.h */,
+				4053924F1A6E7E5D007E7D5E /* RCWCatagory.m */,
+				405392501A6E7E5D007E7D5E /* MainCenter.h */,
+				405392511A6E7E5D007E7D5E /* MainCenter.m */,
+				405392521A6E7E5D007E7D5E /* RCWLEDLightNode.h */,
+				405392531A6E7E5D007E7D5E /* RCWLEDLightNode.m */,
+				405392541A6E7E5D007E7D5E /* RCWLEDShapeNode.h */,
+				405392551A6E7E5D007E7D5E /* RCWLEDShapeNode.m */,
+				403E547E1A6E7E0100D335A6 /* Images.xcassets */,
+				403E54681A6E7E0100D335A6 /* Supporting Files */,
+				401A3EF41A6FFEA2009F0E1B /* RCWSettingViewController.h */,
+				401A3EF51A6FFEA2009F0E1B /* RCWSettingViewController.m */,
+			);
+			path = MyPinBall;
+			sourceTree = "<group>";
+		};
+		403E54681A6E7E0100D335A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40316FE21A6F7FD9007DE56C /* Localizable.strings */,
+				403E54691A6E7E0100D335A6 /* MyPinBall-Info.plist */,
+				403E546A1A6E7E0100D335A6 /* InfoPlist.strings */,
+				403E546D1A6E7E0100D335A6 /* main.m */,
+				403E546F1A6E7E0100D335A6 /* MyPinBall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4053920E1A6E7E28007E7D5E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				405392A31A6E8D4D007E7D5E /* mark.png */,
+				405392101A6E7E3D007E7D5E /* bgs.jpg */,
+				405392A51A6E8FE4007E7D5E /* game.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4053920F1A6E7E2E007E7D5E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4053922A1A6E7E45007E7D5E /* WALL2.aif */,
+				4053922B1A6E7E45007E7D5E /* WALL1.aif */,
+				4053922C1A6E7E45007E7D5E /* plugger.wav */,
+				4053922D1A6E7E45007E7D5E /* LED1.wav */,
+				4053922E1A6E7E45007E7D5E /* JACKPOT.wav */,
+				4053922F1A6E7E45007E7D5E /* NOGO.wav */,
+				405392301A6E7E45007E7D5E /* PIN1.wav */,
+				405392311A6E7E45007E7D5E /* PIN2.wav */,
+				405392321A6E7E45007E7D5E /* PIN3.wav */,
+				405392331A6E7E45007E7D5E /* PIN4.wav */,
+				405392341A6E7E45007E7D5E /* PIN5.wav */,
+				405392351A6E7E45007E7D5E /* PIN6.wav */,
+				405392361A6E7E45007E7D5E /* LED2.wav */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403E545B1A6E7E0000D335A6 /* MyPinBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403E54951A6E7E0100D335A6 /* Build configuration list for PBXNativeTarget "MyPinBall" */;
+			buildPhases = (
+				403E54581A6E7E0000D335A6 /* Sources */,
+				403E54591A6E7E0000D335A6 /* Frameworks */,
+				403E545A1A6E7E0000D335A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPinBall;
+			productName = MyPinBall;
+			productReference = 403E545C1A6E7E0100D335A6 /* MyPinBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403E54541A6E7E0000D335A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					403E545B1A6E7E0000D335A6 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 403E54571A6E7E0000D335A6 /* Build configuration list for PBXProject "MyPinBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				"zh-Hant",
+				"zh-Hans",
+			);
+			mainGroup = 403E54531A6E7E0000D335A6;
+			productRefGroup = 403E545D1A6E7E0100D335A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403E545B1A6E7E0000D335A6 /* MyPinBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403E545A1A6E7E0000D335A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405392381A6E7E45007E7D5E /* WALL1.aif in Resources */,
+				405392431A6E7E45007E7D5E /* LED2.wav in Resources */,
+				4053923D1A6E7E45007E7D5E /* PIN1.wav in Resources */,
+				4053923E1A6E7E45007E7D5E /* PIN2.wav in Resources */,
+				4053923B1A6E7E45007E7D5E /* JACKPOT.wav in Resources */,
+				403E546C1A6E7E0100D335A6 /* InfoPlist.strings in Resources */,
+				4053923A1A6E7E45007E7D5E /* LED1.wav in Resources */,
+				4053923C1A6E7E45007E7D5E /* NOGO.wav in Resources */,
+				405392411A6E7E45007E7D5E /* PIN5.wav in Resources */,
+				4066C8331A7127E0003D9487 /* PadStoryboard.storyboard in Resources */,
+				405392371A6E7E45007E7D5E /* WALL2.aif in Resources */,
+				405392A41A6E8D4D007E7D5E /* mark.png in Resources */,
+				4053923F1A6E7E45007E7D5E /* PIN3.wav in Resources */,
+				405392A61A6E8FE4007E7D5E /* game.png in Resources */,
+				403E547F1A6E7E0100D335A6 /* Images.xcassets in Resources */,
+				405392421A6E7E45007E7D5E /* PIN6.wav in Resources */,
+				40316FDB1A6F7F65007DE56C /* Main.storyboard in Resources */,
+				40316FE01A6F7FD9007DE56C /* Localizable.strings in Resources */,
+				405392401A6E7E45007E7D5E /* PIN4.wav in Resources */,
+				405392391A6E7E45007E7D5E /* plugger.wav in Resources */,
+				4053921D1A6E7E3D007E7D5E /* bgs.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403E54581A6E7E0000D335A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405392681A6E7E8C007E7D5E /* RCWViewController.m in Sources */,
+				405392561A6E7E5D007E7D5E /* RCWMyScene.m in Sources */,
+				4053925E1A6E7E5D007E7D5E /* RCWLEDShapeNode.m in Sources */,
+				405392A91A6EAF02007E7D5E /* MPRankViewController.m in Sources */,
+				4053925C1A6E7E5D007E7D5E /* MainCenter.m in Sources */,
+				403E546E1A6E7E0100D335A6 /* main.m in Sources */,
+				4053925D1A6E7E5D007E7D5E /* RCWLEDLightNode.m in Sources */,
+				405392581A6E7E5D007E7D5E /* RCWPlungerNode.m in Sources */,
+				401A3EF61A6FFEA2009F0E1B /* RCWSettingViewController.m in Sources */,
+				4053926A1A6E7E8C007E7D5E /* RCWInfoViewController.m in Sources */,
+				405392591A6E7E5D007E7D5E /* RCWTableNode.m in Sources */,
+				4053925B1A6E7E5D007E7D5E /* RCWCatagory.m in Sources */,
+				405392571A6E7E5D007E7D5E /* RCWPinballNode.m in Sources */,
+				4053925A1A6E7E5D007E7D5E /* RCWPinNode.m in Sources */,
+				403E54721A6E7E0100D335A6 /* MPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40316FDD1A6F7F65007DE56C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40316FDC1A6F7F65007DE56C /* Base */,
+				40316FDF1A6F7F68007DE56C /* zh-Hant */,
+				401A3EF71A7013BD009F0E1B /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40316FE21A6F7FD9007DE56C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40316FE11A6F7FD9007DE56C /* Base */,
+				40316FE31A6F7FDA007DE56C /* zh-Hant */,
+				401A3EF81A7013BD009F0E1B /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		403E546A1A6E7E0100D335A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403E546B1A6E7E0100D335A6 /* en */,
+				40316FDA1A6F7F58007DE56C /* zh-Hant */,
+				401A3EF91A7013BD009F0E1B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4066C8351A7127E0003D9487 /* PadStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4066C8341A7127E0003D9487 /* Base */,
+				4066C8371A7127E3003D9487 /* zh-Hant */,
+				40F1F1F41A712BFB00935217 /* zh-Hans */,
+			);
+			name = PadStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403E54931A6E7E0100D335A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		403E54941A6E7E0100D335A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403E54961A6E7E0100D335A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPinBall/MyPinBall-Prefix.pch";
+				INFOPLIST_FILE = "MyPinBall/MyPinBall-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyPinBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		403E54971A6E7E0100D335A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPinBall/MyPinBall-Prefix.pch";
+				INFOPLIST_FILE = "MyPinBall/MyPinBall-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyPinBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403E54571A6E7E0000D335A6 /* Build configuration list for PBXProject "MyPinBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403E54931A6E7E0100D335A6 /* Debug */,
+				403E54941A6E7E0100D335A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403E54951A6E7E0100D335A6 /* Build configuration list for PBXNativeTarget "MyPinBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403E54961A6E7E0100D335A6 /* Debug */,
+				403E54971A6E7E0100D335A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403E54541A6E7E0000D335A6 /* Project object */;
+}
